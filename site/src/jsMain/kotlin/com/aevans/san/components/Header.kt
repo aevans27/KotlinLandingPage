@@ -1,8 +1,8 @@
 package com.aevans.san.components
 
 import androidx.compose.runtime.Composable
-import com.aevans.san.components.styles.LogoStyle
-import com.aevans.san.components.styles.NavigationItemStyle
+import com.aevans.san.styles.LogoStyle
+import com.aevans.san.styles.NavigationItemStyle
 import com.aevans.san.models.Section
 import com.aevans.san.models.Theme
 import com.aevans.san.util.Constants.FONT_FAMILY

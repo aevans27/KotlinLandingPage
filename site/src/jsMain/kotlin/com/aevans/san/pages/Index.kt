@@ -1,7 +1,9 @@
 package com.aevans.san.pages
 
 import androidx.compose.runtime.*
+import com.aevans.san.sections.AboutSection
 import com.aevans.san.sections.MainSection
+import com.aevans.san.sections.ServiceSection
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -23,7 +25,7 @@ fun HomePage() {
 
     // TODO: Replace the following with your own content
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("THIS PAGE INTENTIONALLY LEFT BLANK")
+
     }
 
     Column(
@@ -32,5 +34,7 @@ fun HomePage() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         MainSection()
+        AboutSection()
+        ServiceSection()
     }
 }
