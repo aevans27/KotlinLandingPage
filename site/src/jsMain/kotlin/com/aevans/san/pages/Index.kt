@@ -1,10 +1,7 @@
 package com.aevans.san.pages
 
 import androidx.compose.runtime.*
-import com.aevans.san.sections.AboutSection
-import com.aevans.san.sections.MainSection
-import com.aevans.san.sections.PortfolioSection
-import com.aevans.san.sections.ServiceSection
+import com.aevans.san.sections.*
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -38,5 +35,6 @@ fun HomePage() {
         AboutSection()
         ServiceSection()
         PortfolioSection()
+        AchievementsSection()
     }
 }

@@ -11,7 +11,7 @@ import com.aevans.san.styles.AboutTextStyle
 import com.aevans.san.util.Constants
 import com.aevans.san.util.ObserveViewportEntered
 import com.aevans.san.util.Res
-import com.aevans.san.util.animatePercentage
+import com.aevans.san.util.animatedNumbers
 import com.varabyte.kobweb.compose.css.FontStyle
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
@@ -114,8 +114,8 @@ fun AboutMe() {
             viewportEntered = true
             Skill.entries.forEach { skill ->
                 scope.launch {
-                    animatePercentage(
-                        percent = skill.percentage.value.toInt(),
+                    animatedNumbers(
+                        number = skill.percentage.value.toInt(),
                         onUpdate = {
                             animatedPercentage[skill.ordinal] = it
                         }
