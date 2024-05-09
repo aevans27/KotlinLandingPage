@@ -221,7 +221,7 @@ fun ExperienceNumber(
                         if (active)
                             Colors.White
                         else
-                            Theme.Secondary.rgb
+                            Theme.Primary.rgb
                     )
                     .toAttrs()
             ) {
