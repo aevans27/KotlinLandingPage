@@ -141,7 +141,7 @@ fun AboutMe() {
                 .color(Theme.Secondary.rgb)
                 .toAttrs()
         ) {
-            Text(Constants.LOREM_IPSUM_SHORT)
+            Text(Constants.ABOUT_TEXT)
         }
         Skill.entries.forEach { skill ->
             SkillBar(

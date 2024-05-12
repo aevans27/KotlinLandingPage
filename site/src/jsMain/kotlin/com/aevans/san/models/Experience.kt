@@ -1,6 +1,9 @@
 package com.aevans.san.models
 
+import com.aevans.san.util.Constants.CONTEMPLOR_DESC
 import com.aevans.san.util.Constants.LOREM_IPSUM_LONG
+import com.aevans.san.util.Constants.LTI_DESC
+import com.aevans.san.util.Constants.RADIAN_DESC
 
 enum class Experience(
     val number: String,
@@ -13,26 +16,26 @@ enum class Experience(
 {
     First(
         number = "01",
-        jobPosition = "Kotlin Multi-Platform Developer",
-        description = LOREM_IPSUM_LONG,
-        company = "Google",
-        from = "February 2022",
+        jobPosition = "Full-Stack Developer",
+        description = CONTEMPLOR_DESC,
+        company = "Contemplor Software",
+        from = "March 2024",
         to = "NOW",
     ),
     Second(
         number = "02",
-        jobPosition = "Mobile Developer",
-        description = LOREM_IPSUM_LONG,
-        company = "Facebook",
-        from = "January 2021",
-        to = "October 2021",
+        jobPosition = "Native Mobile Application Developer",
+        description = RADIAN_DESC,
+        company = "Radian",
+        from = "February 2021",
+        to = "December 2022",
     ),
     Third(
         number = "03",
-        jobPosition = "Freelancer",
-        description = LOREM_IPSUM_LONG,
-        company = "Netflix",
-        from = "March 2020",
-        to = "August 2020",
+        jobPosition = "Software Engineer",
+        description = LTI_DESC,
+        company = "Laser Technologies Inc.",
+        from = "December 2013",
+        to = "September 2020",
     )
 }

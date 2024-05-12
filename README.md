@@ -1,10 +1,12 @@
-This is a [Kobweb](https://github.com/varabyte/kobweb) project bootstrapped with the `app/empty` template.
 
-This template is useful if you already know what you're doing and just want a clean slate. By default, it
-just creates a blank home page (which prints to the console so you can confirm it's working)
+### Allan Evans Kotlin Webpage
+### 💻 Technologies Used 
+Kotlin and Kobweb mostly
+## 💡 Project Overview
+> This is a website I built to review Kotlin and advertise for myself
 
-If you are still learning, consider instantiating the `app` template (or one of the examples) to see actual,
-working projects.
+This website is based off of a Kotlin project from Udemy.  Further addtions will include a portfolio section and references.
+The image, icons, and color scheme may change (but I do link this color of green).
 
 ## Getting Started
 

@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.kobweb.application)
-    alias(libs.plugins.kobwebx.markdown)
+//    alias(libs.plugins.kobwebx.markdown)
 }
 
 group = "com.aevans.san"
@@ -16,7 +16,7 @@ version = "1.0-SNAPSHOT"
 kobweb {
     app {
         index {
-            description.set("Powered by Kobweb")
+            description.set("Kobweb site built for Allan Evans")
             head.add {
                 script {
                     src = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -35,7 +35,7 @@ kobweb {
 }
 
 kotlin {
-    configAsKobwebApplication("san", includeServer = true)
+    configAsKobwebApplication("san"/*, includeServer = true*/)
 
     sourceSets {
         commonMain.dependencies {
@@ -47,11 +47,11 @@ kotlin {
             implementation(libs.kobweb.core)
             implementation(libs.kobweb.silk)
             implementation(libs.silk.icons.fa)
-            implementation(libs.kobwebx.markdown)
+//            implementation(libs.kobwebx.markdown)
             implementation(project(":worker"))
         }
-        jvmMain.dependencies {
-            compileOnly(libs.kobweb.api) // Provided by Kobweb backend at runtime
-        }
+//        jvmMain.dependencies {
+//            compileOnly(libs.kobweb.api) // Provided by Kobweb backend at runtime
+//        }
     }
 }

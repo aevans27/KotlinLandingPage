@@ -10,6 +10,33 @@ object Constants {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     const val LOREM_IPSUM_SHORT =
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    const val MAIN_INTRO = "I'm an experienced software engineer with 8 years experience as a mobile application developer, developing natively for both IOS and Android. Now looking to explore backend development such as Ruby and Rails using Test Driven Development to build applications that create API’s."
+    const val ABOUT_TEXT = "I've built applications for small companies and large corporations. This includes building, testing, releasing, and updating the application.  I enjoy working in groups or solo."
+    const val CONTEMPLOR_DESC = "Provide support for a typescript frontend and a C# backend\n" +
+            "Updated code, images, documentation.\n" +
+            "Approaching existing code from a TDD perspective.\n" +
+            "Updating deprecated libraries and services.\n" +
+            "Usage of relational database and associations via Microsoft SQL Server\n"
+    const val RADIAN_DESC = "Provided support for both mostly Android devices and some support for iOS, customers located primarily in the United States.\n" +
+            "Updated code, images, documentation, and versions on the Google Play.\n" +
+            "Deploying test tracks for early builds of app and getting feedback from users, Alpha version for Android and TestFlight for iOS.\n" +
+            "Collaborated with iOS developers so that the native Android version would match the native iOS version.  Successful application with both versions shipped on the same date.\n" +
+            "Usage of API’s to handle upload/download of data, images, and documents associated with individual properties.\n"
+    const val LTI_DESC = "Provide support for both Android and iOS devices.\n" +
+            "Updating code, images, documentation, and versions on the Google Play/App Store.\n" +
+            "Receiving feedback from applications, tracking bugs and potential upgrades.\n" +
+            "Researching alternatives to current implementations of code to allow for a more effective build.\n" +
+            "Used multiple different IDE’s (Xcode, Embarcadero, Eclipse, Android Studio).\n" +
+            "Creating estimated times to complete portions of the project to keep on a schedule.\n" +
+            "Fixing issues for users who experienced issues with the applications.\n" +
+            "Supported sales, received feedback, fixed bugs and added features to the applications.\n" +
+            "Handling BLE communication for devices using both iOS and Android.\n"
+    const val ANDROID_SERVICE = "Created Native Applications using Java and Kotlin."
+    const val IOS_SERVICE = "Created Native Applications using Objective-C and Swift."
+    const val WEB_SERVICE = "Created web applications using HTML, CSS, React, and Typescript."
+    const val BACKEND_SERVICE = "This includes creating services, API's, Monolith applications, and separate backends."
+    const val DATA_SERVICE = "Understanding complex relational data and creating databases using SQL and MySQL."
+    const val CONTRACT_SERVICE = "Able to work independent contracts for small businesses."
 }
 
 object Res {

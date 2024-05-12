@@ -10,17 +10,17 @@ enum class Achievement(
 {
     Completed(
         icon = Res.Icon.checkmark,
-        number = 120,
+        number = 40,
         description = "Completed Projects"
     ),
     Active(
         icon = Res.Icon.shield,
-        number = 12,
+        number = 5,
         description = "Active Projects"
     ),
     Satisfied(
         icon = Res.Icon.happy,
-        number = 42,
+        number = 30,
         description = "Satisfied Clients"
     ),
     Team(

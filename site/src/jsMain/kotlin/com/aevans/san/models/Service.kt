@@ -1,6 +1,12 @@
 package com.aevans.san.models
 
+import com.aevans.san.util.Constants.ANDROID_SERVICE
+import com.aevans.san.util.Constants.BACKEND_SERVICE
+import com.aevans.san.util.Constants.CONTRACT_SERVICE
+import com.aevans.san.util.Constants.DATA_SERVICE
+import com.aevans.san.util.Constants.IOS_SERVICE
 import com.aevans.san.util.Constants.LOREM_IPSUM_SHORTEST
+import com.aevans.san.util.Constants.WEB_SERVICE
 import com.aevans.san.util.Res
 
 enum class Service(
@@ -14,36 +20,36 @@ enum class Service(
         icon = Res.Icon.android,
         imageDesc = "Android Icon",
         title = "Android Development",
-        description = LOREM_IPSUM_SHORTEST
+        description = ANDROID_SERVICE
     ),
     IOS(
         icon = Res.Icon.apple,
         imageDesc = "Apple Icon",
         title = "iOS Development",
-        description = LOREM_IPSUM_SHORTEST
+        description = IOS_SERVICE
     ),
     Web(
         icon = Res.Icon.web,
         imageDesc = "Desktop Icon",
         title = "Web Development",
-        description = LOREM_IPSUM_SHORTEST
+        description = WEB_SERVICE
     ),
-    Design(
+    Backend(
         icon = Res.Icon.design,
         imageDesc = "Pen Icon",
-        title = "UX/UI Design",
-        description = LOREM_IPSUM_SHORTEST
+        title = "Backend",
+        description = BACKEND_SERVICE
     ),
-    Business(
+    Data(
         icon = Res.Icon.business,
         imageDesc = "Chart Icon",
-        title = "Business Analysis",
-        description = LOREM_IPSUM_SHORTEST
+        title = "Data Analysis",
+        description = DATA_SERVICE
     ),
-    SEO(
+    Contract(
         icon = Res.Icon.seo,
         imageDesc = "Megaphone Icon",
-        title = "SEO Marketing",
-        description = LOREM_IPSUM_SHORTEST
+        title = "Contracts",
+        description = CONTRACT_SERVICE
     )
 }

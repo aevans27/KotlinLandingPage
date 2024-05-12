@@ -10,6 +10,7 @@ import com.aevans.san.styles.MainImageStyle
 import com.aevans.san.util.Constants.FONT_FAMILY
 import com.aevans.san.util.Constants.LOREM_IPSUM_SHORT
 import com.aevans.san.util.Constants.LOREM_IPSUM_SHORTEST
+import com.aevans.san.util.Constants.MAIN_INTRO
 import com.aevans.san.util.Constants.SECTION_WIDTH
 import com.aevans.san.util.Res
 import com.varabyte.kobweb.compose.css.*
@@ -38,7 +39,7 @@ import org.jetbrains.compose.web.dom.Text
 import org.w3c.dom.Image
 
 @Composable
-fun MainSection() {
+fun MainSection(onMenuClicked: () -> Unit) {
     Box(
         modifier = Modifier
             .id(Section.Home.id)
@@ -46,7 +47,7 @@ fun MainSection() {
         contentAlignment = Alignment.TopCenter
     ) {
         MainBackground()
-        MainContent()
+        MainContent(onMenuClicked = onMenuClicked)
     }
 }
 
@@ -60,14 +61,14 @@ fun MainBackground() {
 }
 
 @Composable
-fun MainContent() {
+fun MainContent(onMenuClicked: () -> Unit) {
     val breakpoint = rememberBreakpoint()
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.SpaceBetween,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Header()
+        Header(onMenuClicked = onMenuClicked)
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Bottom,
@@ -140,7 +141,7 @@ fun MainText(breakpoint: Breakpoint) {
                     .color(Theme.Secondary.rgb)
                     .toAttrs()
             ) {
-                Text(value = LOREM_IPSUM_SHORTEST)
+                Text(value = MAIN_INTRO)
             }
             Button(
                 attrs = MainButtonStyle.toModifier()
