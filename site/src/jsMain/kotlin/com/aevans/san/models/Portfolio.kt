@@ -9,28 +9,28 @@ enum class Portfolio(
 )
 {
     One(
-        image = Res.Image.portfolio1,
-        title = "Kudoe",
-        description = "Web Design"
+        image = Res.Image.mon_recette,
+        title = "Mon-Risette",
+        description = "Recipe simplifier"
     ),
     Two(
-        image = Res.Image.portfolio2,
-        title = "Landing Page for NFT",
-        description = "Frontend"
+        image = Res.Image.web_page,
+        title = "Kotlin Web Page",
+        description = "This websites repo"
     ),
     Three(
-        image = Res.Image.portfolio3,
-        title = "NFT Application",
-        description = "Frontend/Backend"
+        image = Res.Image.sweater_weather,
+        title = "Sweater Weather",
+        description = "Ruby application checking the weather"
     ),
     Four(
-        image = Res.Image.portfolio4,
-        title = "Game Statistics Application",
-        description = "Web/Mobile App"
+        image = Res.Image.authentication,
+        title = "Authentication",
+        description = "Trying out authentication options"
     ),
     Five(
-        image = Res.Image.portfolio5,
-        title = "Platform for Online Courses",
-        description = "Web/Mobile App"
+        image = Res.Image.tea_subscription,
+        title = "Tea Subscription",
+        description = "App using relational database"
     )
 }

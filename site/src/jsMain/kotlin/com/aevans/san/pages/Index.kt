@@ -41,7 +41,7 @@ var menuOpened by remember {
             })
             AboutSection()
             ServiceSection()
-//            PortfolioSection() Update for own repo
+            PortfolioSection()
             AchievementsSection()
 //            TestimonialSection()
             ExperienceSection()
