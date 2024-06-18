@@ -28,7 +28,7 @@ import org.jetbrains.compose.web.dom.Text
 fun PortfolioCard(
     modifier: Modifier = Modifier,
     portfolio: Portfolio,
-    link: String = WEBSITE
+    link: String = portfolio.github_link
 )
 {
     Link(
